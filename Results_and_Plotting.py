@@ -78,8 +78,6 @@ print(f"precision is {precision_mean}\n"
 
 
 # Plotting
-#TODO You should actually plot as function of fraction of comparisons but I am tired. I have already included the fraction_comp
-#TODO variable which returns the total amount of possible comparisons (N^2) / no_candidate_pairs
 
 import matplotlib.pyplot as plt
 fig, axes = plt.subplots(ncols=2, nrows=2)
